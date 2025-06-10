@@ -1,5 +1,55 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+    background: pink;
+    
 }
+.titulo {
+  text-align: center;
+  font-size: medium;
+  margin-top: 50px;
+}
+.cont {
+  background-color: aliceblue;
+}
+
+.card {
+    border: 1px solid black;
+    width: 60px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3px;
+    list-style-type: none;
+    margin: 5px;
+}
+
+#contenedor {
+    display: flex;
+    flex-wrap: flex;
+    padding: 3px;
+    margin: 6px;
+}
+
+#ordenadas {
+  display: flex;
+  flex-direction: column;
+  padding: 3px;
+  margin: 6px;
+}
+
+.fila-cartas {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-bottom: 10px; 
+}
+
+#ordenadas .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    width: auto; 
+    margin-right: 10px;
+}
+
